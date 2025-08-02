@@ -15,7 +15,7 @@ int main(){
     printf("diga a populacao:\n");
     scanf("%d", &populacao);
 
-    printf("diga a área:\n");
+    printf("diga a area:\n");
     scanf("%f", &area);
     
     printf("diga o PIB:\n");
@@ -31,11 +31,11 @@ int main(){
     int populacao, pontos_turisticos;
     float area, PIB;
     
-    printf("JOÃO PESSOA");
+    printf("JOAO PESSOA");
     printf("diga a populacao:\n");
     scanf("%d", &populacao);
 
-    printf("diga a área:\n");
+    printf("diga a area:\n");
     scanf("%f", &area);
     
     printf("diga o PIB:\n");
