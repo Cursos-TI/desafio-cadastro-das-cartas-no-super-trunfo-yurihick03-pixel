@@ -8,6 +8,7 @@ int main(){
     int populacao;
     float area,PIB;
     int pontos_turisticos;
+    
 
 
     printf("alagoas:\n");
@@ -34,6 +35,9 @@ int main(){
     printf("digite a cidade:\n");
     scanf("%s", &cidade);
 
+    
+
+    
 
 
 
@@ -42,6 +46,8 @@ int main(){
     int populacao2, pontos_turisticos2;
     float area2, PIB2;
     
+
+
     printf("\nCARTA2_paraiba:\n");
 
     printf("digite o codigo da carta:");
@@ -65,6 +71,9 @@ int main(){
     printf("digite a cidade:\n");
     scanf("%s", &cidade2);
 
+    
+    
+
      //EXIBIÇÃO
     printf("\nCARTA: %s (alagoas)\n", codigo);
     printf("populacao: %d\n",populacao);
@@ -81,7 +90,7 @@ int main(){
     printf("PIB: %.2f\n",PIB2);
     printf("pontos_turisticos: %d\n", pontos_turisticos2);
     printf("estado: %s\n",estado2);
-    printf("cidade: %s\n",cidade2);
+    printf("cidade: %s\n", cidade2);
     
     return 0;}
     
