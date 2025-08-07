@@ -35,7 +35,9 @@ int main(){
     printf("digite a cidade:\n");
     scanf("%s", &cidade);
 
-    
+    // Cálculos
+    float dencidade = populacao / area;
+    float pib_per_capita = PIB / populacao;
 
     
 
@@ -71,8 +73,8 @@ int main(){
     printf("digite a cidade:\n");
     scanf("%s", &cidade2);
 
-    
-    
+    float dencidade2 = populacao2 / area2;
+    float pib_per_capita2 = PIB2 / populacao2;
 
      //EXIBIÇÃO
     printf("\nCARTA: %s (alagoas)\n", codigo);
@@ -82,15 +84,20 @@ int main(){
     printf("pontos_turisticos: %d\n",pontos_turisticos);
     printf("estado: %s\n",estado);
     printf("cidade: %s\n",cidade);
+    printf("dencidade populacional: %.2f\n", dencidade);
+    printf("pib_per_capita: %.2f pib_per_capiata");
 
 
-    printf("\nCARTA: %s (paraiba)\n", codigo2);
+    printf("\nCARTA: %s (paraiba)\n", codigo2);15456
     printf("populacao: %d\n", populacao2);
     printf("area: %.2f\n", area2);
     printf("PIB: %.2f\n",PIB2);
     printf("pontos_turisticos: %d\n", pontos_turisticos2);
     printf("estado: %s\n",estado2);
     printf("cidade: %s\n", cidade2);
-    
+    printf("dencidade populacional: %.2f\n", dencidade2);
+    printf("pib_per_capita: %.2f pib_per_capiata2");
+
+
     return 0;}
     
