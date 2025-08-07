@@ -88,7 +88,7 @@ int main(){
     printf("pib_per_capita: %.2f pib_per_capiata");
 
 
-    printf("\nCARTA: %s (paraiba)\n", codigo2);15456
+    printf("\nCARTA: %s (paraiba)\n", codigo2);
     printf("populacao: %d\n", populacao2);
     printf("area: %.2f\n", area2);
     printf("PIB: %.2f\n",PIB2);
